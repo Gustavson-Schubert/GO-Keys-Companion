@@ -113,3 +113,10 @@ from the public documentation in:
 
 The `RolandSysEx` object exposes `dt1(...)` for raw access if you need to script
 addresses that aren't covered by the high-level helpers.
+
+## Screenshots
+
+<img width="470" height="auto" alt="gkc1" src="https://github.com/user-attachments/assets/eb822c29-99c5-4e1d-a15a-f6edd47a5686" /> 
+<img width="470" height="auto" alt="gkc2" src="https://github.com/user-attachments/assets/b40f054b-9c0c-4d31-beeb-845172608eb3" />
+
+
