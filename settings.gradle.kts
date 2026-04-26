@@ -14,3 +14,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "GO Keys Companion"
 include(":app")
+include(":GO_Keys_Companion_lib_v1")
