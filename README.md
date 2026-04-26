@@ -3,6 +3,15 @@
 Native Android companion app for the **Roland GO:KEYS** and **Roland GO:PIANO** family
 (incl. GO:61K) over **USB MIDI** and **Bluetooth LE MIDI**.
 
+!!! NOT FULLY TESTED, SOME FUNCTIONS MAY NOT WORK.
+Tested: 
+- BLE MIDI connection on android 11 + 16
+- selecting and changing sounds
+- sound shaping (resonance, cutoff, etc...)
+- solo (causes the instrument to sound on only one key - the chord does not play - this is great for simulating wind instruments or solo guitars)
+- some basic functions
+
+
 Rewritten from the ground up to address the previous version's limitations:
 
 - **Layering now works** — uses Roland DT1 SysEx to enable Performance Parts and route
