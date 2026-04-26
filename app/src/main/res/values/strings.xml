@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GO:Keys Companion</string>
+    <string name="title_app">GO:Keys / GO:Piano Companion</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="cd_help">Help</string>
+
+    <!-- Model badges (per rolandgo-hacking / goplus docs) -->
+    <string name="badge_keys">GO:KEYS</string>
+    <string name="badge_piano">GO:PIANO</string>
+    <string name="loopmix_model_note">GO:KEYS plays the full style/key/variation engine via NRPN + DT1. GO:PIANO supports only a one-shot LoopMix trigger and ignores style/key changes.</string>
+
+    <!-- Status -->
+    <string name="status_ready">Ready</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting %1$s…</string>
+    <string name="status_connecting_ble">Connecting BLE %1$s…</string>
+    <string name="status_connected_to">Connected: %1$s</string>
+    <string name="status_lost">Connection lost</string>
+    <string name="status_error">Error</string>
+    <string name="status_readonly">Read-only</string>
+
+    <!-- Errors -->
+    <string name="err_bt_perm_denied">Bluetooth permission denied</string>
+    <string name="err_perm_missing">Permission missing: %1$s</string>
+    <string name="err_enable_bt">Turn on Bluetooth</string>
+    <string name="err_no_scanner">BLE scanner is not available</string>
+    <string name="err_scan_failed">BLE scan failed: %1$d</string>
+    <string name="err_perm_required">Permission required</string>
+    <string name="err_ble_perm">BLE: permission required</string>
+    <string name="err_ble_perm_for_ble">Permission required for BLE</string>
+    <string name="err_midi_unavailable">MIDI is not available</string>
+    <string name="err_usb_not_found">USB MIDI device not found</string>
+    <string name="err_usb_open_failed">USB open failed</string>
+    <string name="err_invalid_ble_addr">Invalid BLE address</string>
+    <string name="err_no_input_port">Device has no input MIDI port</string>
+    <string name="err_queue_full">Queue full</string>
+    <string name="err_midi_write">MIDI write: %1$s</string>
+    <string name="err_unknown">unknown error</string>
+    <string name="err_ble_write_failed">BLE MIDI write failed</string>
+    <string name="err_no_ble_service">Device does not expose the BLE MIDI service</string>
+    <string name="err_no_ble_char">Missing MIDI BLE characteristic</string>
+
+    <!-- Navigation -->
+    <string name="nav_connection">Connect</string>
+    <string name="nav_performance">Perform</string>
+    <string name="nav_loopmix">LoopMix</string>
+    <string name="nav_profiles">Profiles</string>
+    <string name="nav_macros">Macros</string>
+    <string name="nav_automations">Automate</string>
+    <string name="nav_monitor">Monitor</string>
+
+    <!-- Connection screen -->
+    <string name="section_model">Keyboard model</string>
+    <string name="section_usb">USB MIDI</string>
+    <string name="section_ble">Bluetooth LE MIDI</string>
+    <string name="model_gp_label">GO:Piano</string>
+    <string name="model_gk_label">GO:Keys</string>
+    <string name="btn_connect">Connect</string>
+    <string name="btn_disconnect">Disconnect</string>
+    <string name="btn_refresh_usb">Refresh USB</string>
+    <string name="btn_scan_ble">Scan BLE</string>
+    <string name="btn_stop_scan">Stop scan</string>
+    <string name="empty_devices">No devices yet</string>
+
+    <!-- Performance / parts -->
+    <string name="section_performance">Performance</string>
+    <string name="performance_intro">Configure up to four parts. Each part has its own patch, channel, mix and optional split zone. Layering and split are sent over Roland Performance SysEx so the keyboard actually responds.</string>
+    <string name="part_main">Main part</string>
+    <string name="part_layer">Layer (upper)</string>
+    <string name="part_split_lower">Split (lower)</string>
+    <string name="part_extra">Part %1$d</string>
+    <string name="part_active">Active</string>
+    <string name="part_channel">MIDI channel %1$d</string>
+    <string name="part_patch">Patch: %1$s</string>
+    <string name="btn_pick_sound">Pick sound</string>
+
+    <string name="zone_split">Split / zone</string>
+    <string name="zone_low">Lowest key (%1$s)</string>
+    <string name="zone_high">Highest key (%1$s)</string>
+
+    <!-- Mix -->
+    <string name="slider_volume">Volume</string>
+    <string name="slider_pan">Pan</string>
+    <string name="slider_reverb">Reverb send</string>
+    <string name="slider_chorus">Chorus send</string>
+
+    <!-- Sound shaping (CC-based) -->
+    <string name="section_sound_shaping">Sound shaping</string>
+    <string name="sound_shaping_intro">Real-time tone control via standard MIDI CCs (filter, envelope, vibrato, portamento). Sent on the part\'s MIDI channel.</string>
+    <string name="slider_cutoff">Filter cutoff (CC74)</string>
+    <string name="slider_resonance">Filter resonance (CC71)</string>
+    <string name="slider_attack">Attack time (CC73)</string>
+    <string name="slider_decay">Decay time (CC75)</string>
+    <string name="slider_release">Release time (CC72)</string>
+    <string name="slider_vibrato_rate">Vibrato rate (CC76)</string>
+    <string name="slider_vibrato_depth">Vibrato depth (CC77)</string>
+    <string name="slider_vibrato_delay">Vibrato delay (CC78)</string>
+    <string name="slider_expression">Expression (CC11)</string>
+    <string name="slider_portamento_time">Portamento time (CC5)</string>
+    <string name="toggle_portamento">Portamento on/off (CC65)</string>
+    <string name="toggle_mono">Mono mode (CC126/127)</string>
+    <string name="slider_octave">Octave shift</string>
+    <string name="btn_reset_cc">Reset CC defaults</string>
+
+    <!-- Demo songs -->
+    <string name="section_demo">Demo songs</string>
+    <string name="demo_intro">Built-in demos (GO:KEYS).</string>
+    <string name="demo_song">Demo %1$d</string>
+    <string name="btn_demo_play">Play / stop demo</string>
+    <string name="btn_demo_off">Stop demo</string>
+
+    <!-- Master -->
+    <string name="section_master">Master</string>
+    <string name="slider_master_vol">Master volume</string>
+    <string name="btn_tempo_down">Tempo −</string>
+    <string name="btn_tempo_up">Tempo +</string>
+    <string name="btn_panic">PANIC</string>
+
+    <!-- Library -->
+    <string name="section_library_for">Sound library — %1$s</string>
+    <string name="search_placeholder">Search (piano, strings, organ…)</string>
+    <string name="shown_count">Showing %1$d of %2$d</string>
+
+    <!-- LoopMix -->
+    <string name="section_loopmix">LoopMix</string>
+    <string name="loopmix_intro">Drives the GO:KEYS rhythm engine via NRPN + DT1.</string>
+    <string name="loopmix_style">Style</string>
+    <string name="loopmix_key">Key</string>
+    <string name="loopmix_variation">Variation</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+
+    <!-- Profiles -->
+    <string name="section_profiles">Profiles</string>
+    <string name="profiles_intro">Save the entire app state as a named profile and recall it instantly.</string>
+    <string name="profile_name">Profile name</string>
+    <string name="profile_desc">Description (optional)</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Macros -->
+    <string name="section_macros">Macros</string>
+    <string name="macros_intro">Records every MIDI message you send and plays it back with the original timing.</string>
+    <string name="macro_name">Macro name</string>
+    <string name="btn_record">Record</string>
+    <string name="btn_stop_record">Stop &amp; save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_play">Play</string>
+    <string name="recording">● Recording…</string>
+
+    <!-- Automations -->
+    <string name="section_automations_new">New automation</string>
+    <string name="automations_intro">Trigger an action when an incoming MIDI event matches a rule.</string>
+    <string name="automation_name">Rule name</string>
+    <string name="trigger">Trigger</string>
+    <string name="action">Action</string>
+    <string name="action_param">Action parameter (e.g. part index)</string>
+    <string name="action_hex_or_id">Hex bytes or macro id</string>
+
+    <!-- Monitor -->
+    <string name="monitor_label">MIDI monitor</string>
+    <string name="monitor_count">%1$d events</string>
+    <string name="btn_clear">Clear</string>
+    <string name="error_prefix">! %1$s</string>
+
+    <!-- Help -->
+    <string name="help_title">Help</string>
+    <string name="help_conn_title">Connecting the keyboard</string>
+    <string name="help_conn_usb">USB: plug the keyboard into the phone via a USB OTG adapter, then tap Connect.</string>
+    <string name="help_conn_ble">Bluetooth: enable Bluetooth MIDI on the keyboard, tap Scan BLE, pick GO:KEYS / GO:PIANO.</string>
+    <string name="help_layer_title">Layering &amp; split</string>
+    <string name="help_layer_explain">The app turns on the keyboard\'s Performance Part Switch via Roland DT1 SysEx and routes each part to its own MIDI channel. This is the fix for the previous version where layering on channel 2 had no audible effect.</string>
+    <string name="help_loopmix_title">LoopMix</string>
+    <string name="help_loopmix_explain">Style and key are sent as NRPN on channel 1; Start/Stop is a Roland DT1 message at the LoopMix base address.</string>
+    <string name="help_macro_title">Macros</string>
+    <string name="help_macro_explain">Tap Record, perform any actions in the app, tap Stop. The recorded sequence is replayed with the same relative timing.</string>
+    <string name="help_automation_title">Automations</string>
+    <string name="help_automation_explain">Each rule has a trigger (incoming note / CC / SysEx prefix / patch select) and an action (panic, send raw bytes, switch a patch, toggle LoopMix, play a macro).</string>
+    <string name="help_trouble_title">Troubleshooting</string>
+    <string name="help_trouble_explain">If notes hang, hit PANIC. If the keyboard does not respond to layering, make sure the keyboard\'s DUAL/SPLIT button is off — the app drives layering itself via Performance Parts.</string>
+</resources>
