@@ -8,7 +8,7 @@ Tested:
 - BLE MIDI connection on android 11 + 16
 - selecting and changing sounds
 - sound shaping (resonance, cutoff, etc...)
-- solo (causes the instrument to sound on only one key - the chord does not play - this is great for simulating wind instruments or solo guitars)
+- mono mode (causes the instrument to sound on only one key - the chord does not play - this is great for simulating wind instruments or solo guitars)
 - some basic functions
 
 
