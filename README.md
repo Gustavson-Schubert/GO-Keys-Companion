@@ -112,10 +112,17 @@ app/src/main/java/com/companion/gokeys/
                               # Profiles, Macros, Automations, Monitor, Help
 ```
 
+## License 
+
+This project is licensed under the **GNU General Public License v3.0**. 
+
+See the License [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt) file for the full license text.
+
+---
 ## SysEx reference
 
 All Roland addresses, bank/program assignments and NRPN definitions are derived
-from the public documentation in:
+from the public documentation in (Special thanks to waldt):
 
 - https://github.com/waldt/goplus
 - https://github.com/waldt/rolandgo-hacking
